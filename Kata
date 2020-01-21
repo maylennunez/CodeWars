@@ -9,6 +9,6 @@ if (arr[i] > 0)
 }
 return (sum);
 }
-// Hello!!!!
+
 
 // Hello!
