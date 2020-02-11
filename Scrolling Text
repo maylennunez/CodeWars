@@ -1,0 +1,8 @@
+function scrollingText(text){
+ // return ["GOOD LUCK!","OOD LUCK!G"...]
+ text=text.toUpperCase();
+ return text.split('').map((_ , i) => text.slice(i)+text.slice(0,i));
+ 
+ 
+ }
+ scrollingText("hello")
